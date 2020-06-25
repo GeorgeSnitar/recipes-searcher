@@ -1,0 +1,16 @@
+
+.recipesImageBox{
+    width: 100%;
+    max-width: 1860px;
+    height: 676px;
+    align-self: center;
+  }
+.recipesImageBox img{
+    width: 100%;
+}  
+
+@media screen and (min-width:320px) and (max-width: 440px) {
+  .recipesImageBox img{
+    width: 100%;
+  }
+}

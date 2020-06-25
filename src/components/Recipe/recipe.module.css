@@ -1,0 +1,139 @@
+.recipe{
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px rgb(71, 71, 71);
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: white;
+    align-items: center;
+    max-width: 65vw;
+    width: 100%;
+}
+
+.image{
+    border-radius: 5%;
+    width: 100%;
+    max-width: 480px;
+    height: 350px;
+    margin: 20px 0;
+}
+.recipeBox{
+    display: flex;
+}
+.listBox{
+    display: block;
+    z-index: 2;
+    max-width: 400px;
+    margin-left: 20px;
+    min-height: 320px;
+    width: 100%;
+    animation: show 2s ease-in-out;
+}
+.listBox p {
+    font-size: 18px;
+}
+.list{
+    padding: 20px;
+}
+.list li{
+    list-style: disc;
+}
+.none{
+    display: none;
+}
+
+.text{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+@media screen and (min-width: 320px) and (max-width: 440px){
+    .recipe{
+        border-radius: 10px;
+        box-shadow: 0px 5px 20px rgb(71, 71, 71);
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        background: white;
+        align-items: center;
+        max-width: 85vw;
+        width: 100%;
+    }
+    .recipe h1{
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    .image{
+        border-radius: 5%;
+        width: 90%;
+        max-width: 280px;
+        height: 150px;
+        margin: 20px 0;
+    }
+    .recipeBox{
+       flex-direction: column;
+       align-items: center;
+    }
+}
+
+@media screen and (min-width: 440px) and (max-width: 780px){
+    .recipe{
+        border-radius: 10px;
+        box-shadow: 0px 5px 20px rgb(71, 71, 71);
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        background: white;
+        align-items: center;
+        max-width: 85vw;
+        width: 100%;
+    }
+    .recipe h1{
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    .image{
+        border-radius: 5%;
+        width: 90%;
+        width: 350px;
+        height: 200px;
+        margin: 20px 0;
+    }
+    .recipeBox{
+       flex-direction: column;
+       align-items: center;
+    }
+}
+
+@media screen and  (min-width:780px) and (max-width: 1350px) {
+    .recipe{
+        border-radius: 10px;
+        box-shadow: 0px 5px 20px rgb(71, 71, 71);
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        background: white;
+        align-items: center;
+        max-width: 85vw;
+        width: 100%;
+    }
+    .recipe h1{
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    .image{
+        border-radius: 5%;
+        width: 90%;
+        width: 350px;
+        height: 200px;
+        margin: 20px 0;
+    }
+    .recipeBox{
+       flex-direction: column;
+       align-items: center;
+    }
+}

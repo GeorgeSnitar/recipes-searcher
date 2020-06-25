@@ -1,0 +1,42 @@
+.app-wrapper{
+  display: grid;
+  min-height: 100vh;
+  grid-area: h;
+  background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100% );
+  grid-template-areas: 
+  "h"
+  "c";
+
+  grid-template-rows: 320px 1fr;
+}
+
+.app-wrapper-content{
+  grid-area: c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.recipes{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+@media screen and (min-width: 320px) and (max-width: 440px){
+  .app-wrapper{
+    grid-template-rows: 120px 1fr;
+  }
+}
+
+@media screen and (min-width:440px) and (max-width: 780px){
+  .app-wrapper{
+    grid-template-rows: 170px 1fr;
+  }
+}
+
+@media screen and (min-width:780px) and (max-width: 1350px){
+  .app-wrapper{
+    grid-template-rows: 230px 1fr;
+  }
+}

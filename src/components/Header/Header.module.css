@@ -1,0 +1,196 @@
+.header{
+    grid-area: h;
+}
+.headerBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.headerBox a{
+    text-decoration: none;
+    margin-right: 20px;
+}
+.headerBox a h1{
+    font-size: 22px;
+    font-family: 'Arial',sans-serif;
+    color: white;
+}
+
+h1{
+    margin: 0;
+}
+.searchForm{
+    min-height: 10vh;
+    margin-left: 20px;
+    width: 100%;
+    max-width: 850px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+ .searchForm a{
+    width: 80%;
+ } 
+.searchBar{
+    width: 100%;
+    font-size: 11px;
+    letter-spacing: 1px;
+    border: none;
+    outline: none;
+    padding: 10px;
+}  
+.searchForm .searchButton{
+    background-color: lightcoral;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+}
+.searchForm .searchButton a{
+color: white;
+margin: 0;
+}
+.titleBox{
+    display: flex;
+    justify-content: center;
+}
+.title{
+    font-size: 90px;
+    letter-spacing: 5px;
+    color: white; 
+}
+
+@media screen and (min-width: 320px) and (max-width: 440px) {
+    .headerBox a{
+        margin-left:10px;
+        margin-right: 0;
+    }
+    .headerBox a h1{
+        font-size: 12px;
+        font-family: 'Arial',sans-serif;
+        color: white;
+    }
+    .searchForm{
+        min-height: 8vh;
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 100%;
+        max-width: 850px;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .searchForm a{
+        width: 100%;
+        height: 28px;
+        margin: 0;
+     } 
+     .searchBar{
+        width: 95%;
+        font-size: 9px;
+        letter-spacing: 1px;
+        border: none;
+        outline: none;
+        padding: 6px;
+    }  
+    .searchForm .searchButton{
+        background-color: lightcoral;
+        border: none;
+        outline: none;
+        padding: 3.5px 10px;
+    }
+    .searchForm .searchButton a{
+         font-size: 12px;
+        }
+    .title{
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width:440px) and (max-width: 780px){
+    .headerBox a{
+        margin-left:10px;
+        margin-right: 0;
+    }
+    .headerBox a h1{
+        font-size: 20px;
+        font-family: 'Arial',sans-serif;
+        color: white;
+    }
+    .searchForm{
+        min-height: 8vh;
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 100%;
+        max-width: 850px;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .searchForm a{
+        width: 100%;
+        margin: 0;
+     } 
+     .searchBar{
+        width: 97%;
+        font-size: 12px;
+        letter-spacing: 1px;
+        border: none;
+        outline: none;
+        padding: 10px;
+    }  
+    .searchForm .searchButton{
+        background-color: lightcoral;
+        border: none;
+        outline: none;
+        padding: 9.5px 10px;
+    }
+    .title{
+        font-size: 50px;
+    }
+}
+
+@media screen and (min-width: 780px) and (max-width: 1350px){
+    .headerBox a{
+        margin-right: 25px;
+    }
+    .headerBox a h1{
+        font-size: 22px;
+        font-family: 'Arial',sans-serif;
+        color: white;
+    }
+    .searchForm{
+        min-height: 8vh;
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 100%;
+        max-width: 850px;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .searchForm a{
+        width: 100%;
+        margin: 0;
+     } 
+     .searchBar{
+        width: 97.5%;
+        font-size: 18px;
+        letter-spacing: 1px;
+        border: none;
+        outline: none;
+        padding: 10px;
+    }  
+    .searchForm .searchButton{
+        background-color: lightcoral;
+        border: none;
+        outline: none;
+        padding: 8px 15px;
+    }
+    .searchForm .searchButton a{
+        color: white;
+        font-size: 22px;
+        }
+    .title{
+        font-size: 60px;
+    }
+}
